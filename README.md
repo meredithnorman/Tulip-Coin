@@ -3,6 +3,8 @@
 This function is my strategy to maximise profits from Tulip coin. 
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/a74e69dc-a591-4a0c-bd4f-3dd0dea1bf67">
 
+
+
 My function was tested using excellent simulation code from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
 
 This yielded the following asset values across 50 simulations:
