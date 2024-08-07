@@ -1,6 +1,6 @@
 # Tulip-Coin
 
-This function is my strategy to maximise profits from trading the dynamic Tulip coin (see outline below). <br>
+This function is my strategy to maximise profits from trading the dynamic Tulip coin (see outline below). <br> \n
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/a74e69dc-a591-4a0c-bd4f-3dd0dea1bf67">
 <br>
 <br>
