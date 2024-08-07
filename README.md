@@ -1,11 +1,11 @@
 # Tulip-Coin
 
-This function is my strategy to maximise profits from Tulip coin. 
+This function is my strategy to maximise profits from Tulip coin. <br>
 <img width="397" alt="image" src="https://github.com/user-attachments/assets/a74e69dc-a591-4a0c-bd4f-3dd0dea1bf67">
 
 
 
-My function was tested using excellent simulation code from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
+<br> My function was tested using excellent simulation code from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
 
 This yielded the following asset values across 50 simulations:
 ![mean](https://github.com/user-attachments/assets/0783c3ab-d7b0-416a-9a04-fb7085488709)
