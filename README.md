@@ -9,7 +9,6 @@ My function implements the following strategies:
 <br> -> After 7 minutes, it then sells in the price is over $6 and buys if the price is less than $4, this guarantees at least 50% profit. 
 <br> -> In the last 10 minutes I stop buying and sell if the price is over $5.  
 <br> -> At each buy I spend 30% of my funds, and in each sell, I sell 20% of the coins. This is fairly conservative and not as risky as @a-s-russo who gives everything 100%.
-
 <br> My function was tested using excellent simulation code which informed some of my parameter choices from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
 
 This yielded the following asset values across 50 simulations:
