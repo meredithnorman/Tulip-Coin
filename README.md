@@ -16,7 +16,7 @@ This yielded the following asset values across 50 simulations:
 ![9 7mil](https://github.com/user-attachments/assets/0b1a0a81-1bda-4a1b-bba3-e94f53daf778)
 
 <br> <br>
-This function was pitted against other trading strategies to see who had the most profitable strategy. Overall my function gave me the second highest profit of around $45,000, only 1.995 million behind @a-s-russo. I was super happy with this and it was great fun using the simulation code to refine my strateegy. Such fun :) 
+This function was pitted against other trading strategies to see who had the most profitable strategy. Overall my function gave me the second highest profit of around $45,000, only 1.995 million behind @a-s-russo. I was super happy with this and it was great fun using the simulation code to refine my strategy. Such fun :) 
 
 
 
