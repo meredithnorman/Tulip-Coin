@@ -7,7 +7,7 @@ This function is my strategy to maximise profits from trading the dynamic Tulip 
 My function implements the following strategies:
 <br> -> It buys as many coins as possible in the first 7 minutes as this is when the coins will likely be cheapest. 
 <br> -> After 7 minutes, it then sells in the price is over $6 and buys if the price is less than $4, this guarantees at least 50% profit. 
-<br> -> In the last 10 minutes I stop buying and sell if the price is over $5.  
+<br> -> In the last 10 minutes I stop buying and sell only if the price is over $5.  
 <br> -> At each buy I spend 30% of my funds, and in each sell, I sell 20% of the coins. This is fairly conservative and not as risky as @a-s-russo who gives everything 100%.
 <br> My function was tested using excellent simulation code which informed some of my parameter choices from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
 
