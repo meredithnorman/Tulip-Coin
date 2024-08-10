@@ -5,17 +5,19 @@ This function is my strategy to maximise profits from trading the dynamic Tulip 
 <br>
 <br>
 My function implements the following strategies:
-<br> -> It buys when the cost of coins is increasing (slope >0) and the current price is greater than the weighted average. This is a more robust way of hopefully ensuring that the price should continue to increase.
-<br> -> It sells when the price is at 35% higher than the bought price - this ensures at least 35% profit is made every sale. This explains why there are some identical asset values in the graph above.
-<br> -> After buying, the next action must be selling, this stops the function from consistently buying. 
-<br> -> At each buy/sell, 53% of my assets are exchanged. This is chosen as a fairly conservative, but slightly risky percent. Potentially also because 53 is my favourite number :) 
-<br> The main down fall of my strategy is the limitation that coins will only be sold if 35% profit is made, so if the coins are purchased when the price is at an all time peak, there may never be an opportunity for the coins to be sold. 
-<br> My function was tested using excellent simulation code from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
+<br> -> It buys as many coins as possible in the first 7 minutes as this is when the coins will likely be cheapest. 
+<br> -> After 7 minutes, it then sells in the price is over $6 and buys if the price is less than $4, this guarantees at least 50% profit. 
+<br> -> In the last 10 minutes I stop buying and sell if the price is over $5.  
+<br> -> At each buy I spend 30% of my funds, and in each sell, I sell 20% of the coins. This is fairly conservative and not as risky as @a-s-russo who gives everything 100%.
+
+<br> My function was tested using excellent simulation code which informed some of my parameter choices from: https://github.com/a-s-russo/tulip-coin/blob/main/simulation.py
 
 This yielded the following asset values across 50 simulations:
-![mean](https://github.com/user-attachments/assets/0783c3ab-d7b0-416a-9a04-fb7085488709)
+![9 7mil](https://github.com/user-attachments/assets/0b1a0a81-1bda-4a1b-bba3-e94f53daf778)
+
 <br> <br>
-This function will be pitted against other trading strategies to see who has the most profitable strategy. I am not feeling very confident in my strategy but it has been a fun journey.  
+This function was pitted against other trading strategies to see who had the most profitable strategy. Overall my function gave me the second highest profit of around $45,000, only 1.995 million behind @a-s-russo. I was super happy with this and it was great fun using the simulation code to refine my strateegy. Such fun :) 
+
 
 
 
