@@ -14,7 +14,7 @@ def tulip_coin_strategy(history):
                 proportion=0.20
             elif current_price<4:
                 decision='buy'
-                proportion=0.20
+                proportion=0.30
             else: 
                 decision='hold'
                 proportion=1
